@@ -1,5 +1,46 @@
 .App {
-  text-align: center;
+  text-align: left;
+  padding: 5vh 10vw;
+}
+
+h1 {
+  font-size: 2rem;
+  margin: 0 25px;
+}
+
+h2 {
+  color: gray !important;
+  font-size: 1.5rem;
+  margin: 20px 25px 50px;
+}
+
+.ui.form .field {
+  display: flex !important;
+  align-items: center;
+  width: 75%;
+  margin: 30px 0;
+}
+
+.data-field {
+  top: -15px;
+}
+
+.ui.fluid.button, .ui.fluid.buttons {
+  margin: 10px 0 0 !important;
+}
+
+input {
+  border: none !important;
+  border-bottom: solid 1px black !important;
+  border-radius: 0 !important;
+}
+
+.ui.form p {
+  margin: 0 25px 50px;
+}
+
+.field .ui, label {
+  margin: 0 25px !important;
 }
 
 .App-logo {
